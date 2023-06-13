@@ -1,0 +1,59 @@
+
+    body {
+      background-color: black;
+      
+    }
+    
+    
+    
+    
+    /* CSS styling for the features section */
+    .features-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .features-title {
+      color: #4287f5;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .feature {
+      margin-bottom: 10px;
+    }
+
+    .feature-title {
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .feature-description {
+      color: #666;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    @media screen and (max-width: 600px) {
+      /* Responsive styling for smaller screens */
+      .features-container {
+        padding: 10px;
+      }
+
+      .features-title {
+        font-size: 20px;
+      }
+
+      .feature-title {
+        font-size: 16px;
+      }
+
+      .feature-description {
+        font-size: 14px;
+      }
+    }
+  
